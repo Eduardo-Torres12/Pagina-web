@@ -1,10 +1,11 @@
-<h1>MiNinieVeneno - Store E-commerce App</h1>
+<h1>S&D Store - Tienda en Línea App</h1>
 <p>Aplicación e-commerce realizado con React, Redux, Node, Express, MongoDB y Mongoose</p>
 <p>Aún en proceso</p>
 
-✔ HTML y CSS con grid, FlexBox y diseño responsive. <br>
-✔ Acciones escalables y páginas dinámicas con JavaScript.<br>
-✔ Librería ReactJS para construir el front-end de la e-commerce.<br>
-✔ Cuenta con formularios de logueo y registro de usuario, catálogo de productos, categorización, buscador y carrito de compras.<br>
-✔ Utilización de Node y el framework Express para correr web server y API endpoints.<br>
-✔ MongoDB y Mongoose para guardar y recuperar data como productos, órdenes y usuarios.
+S&D Store - Tienda en Línea
+
+Bienvenido a S&D Store, tu destino en línea para todo lo relacionado con el estilo y la funcionalidad. Este proyecto es una tienda en línea desarrollada con React que presenta una estructura simple y fácil de navegar.
+
+Descripción del Proyecto
+
+S&D Store es una aplicación de una sola página (SPA) desarrollada con React. Incluye varios componentes para construir la interfaz de usuario, como un encabezado, una barra de navegación, una galería de productos, una sección de suscripción al boletín y un pie de página.
