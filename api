@@ -1,0 +1,23 @@
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Determina la ubicación del archivo y directorio actual
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Sirve los archivos compilados de React desde el directorio 'build'
+app.use(express.static(path.join(__dirname, 'frontend/build')));
+
+// Maneja cualquier ruta no definida devolviendo 'index.html' de React
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
+});
+
+// Inicia el servidor
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
